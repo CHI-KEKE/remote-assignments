@@ -1,0 +1,89 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+/* Navbar */
+.navbar {
+    background: #ccc;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.menu {
+    list-style-type: none;
+    display: flex;
+}
+  
+.menu li {
+    margin: 10px 25px;
+}
+  
+/* Heading */
+.heading {
+    height: 250px;
+    background: #b0c2cd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+}
+  
+/* Content */
+
+
+.content {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+.section-title {
+    width: 100%;
+    text-align: center;
+    margin: 20px;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.box-container{
+    width: 100%;
+    max-width: 1200px;  /* set the max of content boxes total width 1200px */
+    display: flex;
+    flex-wrap: wrap;   /* able to go to next line if not enough space */
+    justify-content: center;
+}
+
+  
+.box {
+    width: 200px;
+    height: 200px;
+    background: #eaeaea;
+    margin: 10px;
+    text-align: center;
+}
+  
+/* Button */
+.btn {
+    display: block;
+    border: none;
+    cursor: pointer;
+    background-color: #7ac1ed;
+    margin: 20px auto;
+    padding: 15px;
+}
+  
+/* set for iphone XR :414px width */
+/* when out of mobile phone range, arrange the boxes in the box-container two boxes per row */
+@media (min-width: 415px) {   
+    .box {
+      flex-basis: calc(50% - 20px);
+    }
+  }
