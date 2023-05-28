@@ -44,8 +44,7 @@
 .heading {
     height: 250px;
     background: url("image/headings.jpg");
-    background-position: center;
-    background-image: cover;
+    background-size:100%;
     display: flex;
     justify-content: center;
     align-items: center;
