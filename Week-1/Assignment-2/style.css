@@ -95,22 +95,22 @@
 }
 
 .box1{
-    background: url("image/pic1.jpeg");
+    background: url("image/pic1.jpg");
     background-size:100%
 }
 
 .box2{
-    background: url("image/pic2.jpeg");
+    background: url("image/pic2.jpg");
     background-size:100%;
 }
 
 .box3{
-    background: url("image/pic3.jpeg");
+    background: url("image/pic3.jpg");
     background-size:100%;
 }
 
 .box4{
-    background: url("image/pic4.jpeg");
+    background: url("image/pic4.jpg");
     background-size:100%;
 }
   
