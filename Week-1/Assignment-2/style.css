@@ -156,17 +156,17 @@ nav a:hover::after{
 }
 
 /* Button */
-.btn {
+button {
     display: block;
     border: none;
     cursor: pointer;
-    background-color: #7ac1ed;
+    background-color: #cd8d2e;
     margin: 20px auto;
     padding: 15px;
 }
 
 
-.btn:active{
+button:active{
   transform: translate(0,0.3rem);
   box-shadow:0 0.1rem 0.1rem 0.1rem rgba(0,0,0,0.65);
 }
