@@ -18,7 +18,7 @@ function toNumber(input) {
         d:4,
         e:5,
     };
-    let result = [];
+    const result = [];
 
     input.forEach((item) => {
         if(references.hasOwnProperty(item)){
