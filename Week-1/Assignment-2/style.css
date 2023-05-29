@@ -26,12 +26,39 @@
     font-size: 1.2rem;
     font-weight: 500;
     cursor: pointer;
+    position: relative;
 }
 
 .menu li a {
     text-decoration: none;
     color:white;
 }
+
+
+/* .menu li a:hover{
+    text-decoration: underline;
+} */
+
+
+.menu li a::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 100%;
+  height: 3px;
+  background: #fff;
+  border-radius: 5px;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform .5s;
+}
+
+.menu li a:hover::after{
+  transform-origin: left;
+  transform:scaleX(1);
+}
+
   
 .title{
     display: flex;
@@ -137,6 +164,13 @@
     margin: 20px auto;
     padding: 15px;
 }
+
+
+.btn:active{
+  transform: translate(0,0.3rem);
+  box-shadow:0 0.1rem 0.1rem 0.1rem rgba(0,0,0,0.65);
+}
+
   
 /* set for iphone XR :414px width */
 /* when out of mobile phone range, arrange the boxes in the box-container two boxes per row */
