@@ -28,7 +28,7 @@
     cursor: pointer;
 }
 
-.menu a {
+.menu li a {
     text-decoration: none;
     color:white;
 }
