@@ -19,13 +19,17 @@
 .menu {
     list-style-type: none;
     display: flex;
-
 }
   
 .menu li {
     margin: 10px 25px;
     font-size: 1.2rem;
     font-weight: 500;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
     color:white;
 }
   
@@ -92,28 +96,38 @@
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     font-size: 1.2rem;
+    background-size:100%;
+    background-repeat: no-repeat;
 }
 
-.box1{
+.box1 {
     background: url("image/pic1.jpg");
-    background-size:100%
 }
 
 .box2{
     background: url("image/pic2.jpg");
-    background-size:100%;
 }
 
 .box3{
     background: url("image/pic3.jpg");
-    background-size:100%;
 }
 
 .box4{
     background: url("image/pic4.jpg");
-    background-size:100%;
 }
   
+.box {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+
 /* Button */
 .btn {
     display: block;
