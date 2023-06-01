@@ -1,10 +1,11 @@
 function avg(data) {
   // your code here
-  const PriceSum = data.products.reduce((acc,product) => acc + product.price,0);
-  return PriceSum/data.size;
+  const PriceSum = data.products.reduce(
+    (acc, product) => acc + product.price,
+    0
+  );
+  return PriceSum / data.size;
 }
-
-
 
 console.log(
   avg({
