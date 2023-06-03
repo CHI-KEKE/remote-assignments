@@ -1,0 +1,191 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+/* Navbar */
+.navbar {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:sticky;
+    top:0;
+}
+  
+.menu {
+    list-style-type: none;
+    display: flex;
+}
+  
+.menu li {
+    margin: 10px 25px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+
+.menu li a {
+    text-decoration: none;
+    color:white;
+}
+
+
+/* .menu li a:hover{
+    text-decoration: underline;
+} */
+
+
+nav a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+  }
+  
+nav a:hover::after{
+    transform-origin: left;
+    transform:scaleX(1);
+}
+
+  
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
+
+.title span{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+/* Heading */
+.heading {
+    height: 250px;
+    background: url("image/headings.jpg");
+    background-size:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    letter-spacing: 3px;
+    cursor: pointer;
+
+}
+  
+/* Content */
+
+
+.content {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+.section-title {
+    width: 100%;
+    text-align: center;
+    margin: 20px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.box-container{
+    width: 100%;
+    max-width: 1200px;  /* set the max of content boxes total width 1200px */
+    display: flex;
+    flex-wrap: wrap;   /* able to go to next line if not enough space */
+    justify-content: center;
+}
+
+
+
+.box1 {
+    background: url("image/pic1.jpg");
+}
+
+.box2{
+    background: url("image/pic2.jpg");
+}
+
+.box3{
+    background: url("image/pic3.jpg");
+}
+
+.box4{
+    background: url("image/pic4.jpg");
+}
+
+.box5 {
+    background: url("image/pic5.jpg");
+}
+
+.box6{
+    background: url("image/pic6.jpg");
+}
+
+.box7{
+    background: url("image/pic7.jpg");
+}
+
+.box8{
+    background: url("image/pic8.jpg");
+}
+  
+.box{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+
+/* Button */
+button {
+    display: block;
+    border: none;
+    cursor: pointer;
+    background-color: #cd8d2e;
+    margin: 20px auto;
+    padding: 15px;
+}
+
+
+button:active{
+  transform: translate(0,0.3rem);
+  box-shadow:0 0.1rem 0.1rem 0.1rem rgba(0,0,0,0.65);
+}
+
+/* Hidden boxes effect*/
+
+.hidden{
+    display:none;
+}
+  
+/* set for iphone XR :414px width */
+/* when out of mobile phone range, arrange the boxes in the box-container two boxes per row */
+@media (min-width: 415px) {   
+    .box {
+      flex-basis: calc(50% - 20px);
+    }
+  }
