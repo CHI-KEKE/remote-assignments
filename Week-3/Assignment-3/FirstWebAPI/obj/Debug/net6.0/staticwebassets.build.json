@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "Ux4veK+f1UqiXxLrUOkj9meRb029URzujNRzHqvXRqw=",
+  "Source": "FirstWebAPI",
+  "BasePath": "_content/FirstWebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "FirstWebAPI\\wwwroot",
+      "Source": "FirstWebAPI",
+      "ContentRoot": "C:\\Users\\Allen Lin\\OneDrive\\Desktop\\.net\\g\\remote-assignments\\Week-3\\Assignment-3\\FirstWebAPI\\wwwroot\\",
+      "BasePath": "_content/FirstWebAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Allen Lin\\OneDrive\\Desktop\\.net\\g\\remote-assignments\\Week-3\\Assignment-3\\FirstWebAPI\\wwwroot\\sum.css",
+      "SourceId": "FirstWebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Allen Lin\\OneDrive\\Desktop\\.net\\g\\remote-assignments\\Week-3\\Assignment-3\\FirstWebAPI\\wwwroot\\",
+      "BasePath": "_content/FirstWebAPI",
+      "RelativePath": "sum.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\sum.css"
+    },
+    {
+      "Identity": "C:\\Users\\Allen Lin\\OneDrive\\Desktop\\.net\\g\\remote-assignments\\Week-3\\Assignment-3\\FirstWebAPI\\wwwroot\\sum.html",
+      "SourceId": "FirstWebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Allen Lin\\OneDrive\\Desktop\\.net\\g\\remote-assignments\\Week-3\\Assignment-3\\FirstWebAPI\\wwwroot\\",
+      "BasePath": "_content/FirstWebAPI",
+      "RelativePath": "sum.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Always",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\sum.html"
+    },
+    {
+      "Identity": "C:\\Users\\Allen Lin\\OneDrive\\Desktop\\.net\\g\\remote-assignments\\Week-3\\Assignment-3\\FirstWebAPI\\wwwroot\\sum.js",
+      "SourceId": "FirstWebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Allen Lin\\OneDrive\\Desktop\\.net\\g\\remote-assignments\\Week-3\\Assignment-3\\FirstWebAPI\\wwwroot\\",
+      "BasePath": "_content/FirstWebAPI",
+      "RelativePath": "sum.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\sum.js"
+    }
+  ]
+}

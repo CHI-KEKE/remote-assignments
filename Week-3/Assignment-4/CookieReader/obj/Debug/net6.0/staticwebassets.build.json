@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "FJBiL47fZB4jYKFWLBJGYPFlHOrXGTiMT6lgCVOJQ3Y=",
+  "Source": "CookieReader",
+  "BasePath": "_content/CookieReader",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "CookieReader\\wwwroot",
+      "Source": "CookieReader",
+      "ContentRoot": "C:\\Users\\Allen Lin\\OneDrive\\Desktop\\.net\\g\\remote-assignments\\Week-3\\Assignment-4\\CookieReader\\wwwroot\\",
+      "BasePath": "_content/CookieReader",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Allen Lin\\OneDrive\\Desktop\\.net\\g\\remote-assignments\\Week-3\\Assignment-4\\CookieReader\\wwwroot\\myNameForm.css",
+      "SourceId": "CookieReader",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Allen Lin\\OneDrive\\Desktop\\.net\\g\\remote-assignments\\Week-3\\Assignment-4\\CookieReader\\wwwroot\\",
+      "BasePath": "_content/CookieReader",
+      "RelativePath": "myNameForm.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\myNameForm.css"
+    },
+    {
+      "Identity": "C:\\Users\\Allen Lin\\OneDrive\\Desktop\\.net\\g\\remote-assignments\\Week-3\\Assignment-4\\CookieReader\\wwwroot\\MyNameForm.html",
+      "SourceId": "CookieReader",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Allen Lin\\OneDrive\\Desktop\\.net\\g\\remote-assignments\\Week-3\\Assignment-4\\CookieReader\\wwwroot\\",
+      "BasePath": "_content/CookieReader",
+      "RelativePath": "MyNameForm.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\MyNameForm.html"
+    }
+  ]
+}

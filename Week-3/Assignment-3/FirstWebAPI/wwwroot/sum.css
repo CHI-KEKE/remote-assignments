@@ -1,0 +1,25 @@
+﻿#resultContainer {
+    width: 300px;
+    height: 100px;
+    margin-top: 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.3s ease;
+}
+
+.show {
+        opacity: 1;
+    }
+
+.hide {
+        opacity: 0;
+        pointer-events: none;
+    }

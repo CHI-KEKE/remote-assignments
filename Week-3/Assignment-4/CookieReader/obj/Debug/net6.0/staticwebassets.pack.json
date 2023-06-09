@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Allen Lin\\OneDrive\\Desktop\\.net\\g\\remote-assignments\\Week-3\\Assignment-4\\CookieReader\\wwwroot\\MyNameForm.html",
+      "PackagePath": "staticwebassets\\MyNameForm.html"
+    },
+    {
+      "Id": "C:\\Users\\Allen Lin\\OneDrive\\Desktop\\.net\\g\\remote-assignments\\Week-3\\Assignment-4\\CookieReader\\wwwroot\\myNameForm.css",
+      "PackagePath": "staticwebassets\\myNameForm.css"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.CookieReader.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.CookieReader.props",
+      "PackagePath": "build\\CookieReader.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.CookieReader.props",
+      "PackagePath": "buildMultiTargeting\\CookieReader.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.CookieReader.props",
+      "PackagePath": "buildTransitive\\CookieReader.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
