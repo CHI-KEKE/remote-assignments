@@ -1,0 +1,15 @@
+C:\Users\Allen Lin\OneDrive\Desktop\.net\g\remote-assignments\Week-3\Assignment-5\TwoSum_sol\TwoSum_sol\obj\Debug\net6.0\TwoSum_sol.csproj.AssemblyReference.cache
+C:\Users\Allen Lin\OneDrive\Desktop\.net\g\remote-assignments\Week-3\Assignment-5\TwoSum_sol\TwoSum_sol\obj\Debug\net6.0\TwoSum_sol.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Allen Lin\OneDrive\Desktop\.net\g\remote-assignments\Week-3\Assignment-5\TwoSum_sol\TwoSum_sol\obj\Debug\net6.0\TwoSum_sol.AssemblyInfoInputs.cache
+C:\Users\Allen Lin\OneDrive\Desktop\.net\g\remote-assignments\Week-3\Assignment-5\TwoSum_sol\TwoSum_sol\obj\Debug\net6.0\TwoSum_sol.AssemblyInfo.cs
+C:\Users\Allen Lin\OneDrive\Desktop\.net\g\remote-assignments\Week-3\Assignment-5\TwoSum_sol\TwoSum_sol\obj\Debug\net6.0\TwoSum_sol.csproj.CoreCompileInputs.cache
+C:\Users\Allen Lin\OneDrive\Desktop\.net\g\remote-assignments\Week-3\Assignment-5\TwoSum_sol\TwoSum_sol\bin\Debug\net6.0\TwoSum_sol.exe
+C:\Users\Allen Lin\OneDrive\Desktop\.net\g\remote-assignments\Week-3\Assignment-5\TwoSum_sol\TwoSum_sol\bin\Debug\net6.0\TwoSum_sol.deps.json
+C:\Users\Allen Lin\OneDrive\Desktop\.net\g\remote-assignments\Week-3\Assignment-5\TwoSum_sol\TwoSum_sol\bin\Debug\net6.0\TwoSum_sol.runtimeconfig.json
+C:\Users\Allen Lin\OneDrive\Desktop\.net\g\remote-assignments\Week-3\Assignment-5\TwoSum_sol\TwoSum_sol\bin\Debug\net6.0\TwoSum_sol.dll
+C:\Users\Allen Lin\OneDrive\Desktop\.net\g\remote-assignments\Week-3\Assignment-5\TwoSum_sol\TwoSum_sol\bin\Debug\net6.0\TwoSum_sol.pdb
+C:\Users\Allen Lin\OneDrive\Desktop\.net\g\remote-assignments\Week-3\Assignment-5\TwoSum_sol\TwoSum_sol\obj\Debug\net6.0\TwoSum_sol.dll
+C:\Users\Allen Lin\OneDrive\Desktop\.net\g\remote-assignments\Week-3\Assignment-5\TwoSum_sol\TwoSum_sol\obj\Debug\net6.0\refint\TwoSum_sol.dll
+C:\Users\Allen Lin\OneDrive\Desktop\.net\g\remote-assignments\Week-3\Assignment-5\TwoSum_sol\TwoSum_sol\obj\Debug\net6.0\TwoSum_sol.pdb
+C:\Users\Allen Lin\OneDrive\Desktop\.net\g\remote-assignments\Week-3\Assignment-5\TwoSum_sol\TwoSum_sol\obj\Debug\net6.0\TwoSum_sol.genruntimeconfig.cache
+C:\Users\Allen Lin\OneDrive\Desktop\.net\g\remote-assignments\Week-3\Assignment-5\TwoSum_sol\TwoSum_sol\obj\Debug\net6.0\ref\TwoSum_sol.dll
