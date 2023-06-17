@@ -1,0 +1,65 @@
+﻿@model AS3.Models.HomeViewModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Home";
+}
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Home Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css" integrity="sha512-fVGWU6yqtn0YDCUBKr2mBZs/q8L5z8RVp6T1MmPRhSGVLoUb2Z8sHYUpz7l3JvqZTqxbQAnWqz6o/7L+n/M5vg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+    <partial name="_Notification" />
+
+    <div class="container mt-5">
+        <h2>Home Page</h2>
+
+
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <h3>Sign Up</h3>
+                    @using (Html.BeginForm("Signup", "Account", FormMethod.Post, new { @class = "mb-3" }))
+                    {
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.SignupViewModel.Email)
+                            @Html.TextBoxFor(model => model.SignupViewModel.Email, new { @class = "form-control" })
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.SignupViewModel.Password)
+                            @Html.PasswordFor(model => model.SignupViewModel.Password, new { @class = "form-control" })
+                        </div>
+                        <button type="submit" class="btn btn-primary mt-3">Sign Up</button>
+                    }
+            </div>
+            <div class="col-md-6">
+                <h3>Sign In</h3>
+                    @using (Html.BeginForm("Signin", "Account", FormMethod.Post, new { @class = "mb-3" }))
+                    {
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.SigninViewModel.Email)
+                            @Html.TextBoxFor(model => model.SigninViewModel.Email, new { @class = "form-control" })
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.SigninViewModel.Password)
+                            @Html.PasswordFor(model => model.SigninViewModel.Password, new { @class = "form-control" })
+                        </div>
+                        <button type="submit" class="btn btn-primary mt-3">Sign In</button>
+                    }
+             </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js" integrity="sha512-F8OGnDc+J3Iy3x2CPnDjMK+UUfJm55s3e/aUbSakcI6Hhsj/LaIbgOW40cwXeQc25o/pbA5FUXV9i5y7aKfOgw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
